@@ -55,13 +55,6 @@ Example Output:
    1186 725 615 0
    ```
 
-## Evaluation
-- **IoU Metric:** Measures overlap between predicted and ground truth bounding boxes.
-  - Full credit: IoU ≥ 0.5.
-
-## Notes
-- Ensure adherence to the 20-second limit.
-- Properly document the code for clarity.
 
 This implementation balances robustness and speed, leveraging geometric transformations and keypoint matching to accurately locate the object under varied conditions.
 
